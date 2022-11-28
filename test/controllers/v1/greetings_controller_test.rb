@@ -1,7 +1,9 @@
-require "test_helper"
+require 'test_helper'
 
-class V1::GreetingsControllerTest < ActionDispatch::IntegrationTest
-  # test "the truth" do
-  #   assert true
-  # end
+module V1
+  class GreetingsControllerTest < ActionDispatch::IntegrationTest
+    # test "the truth" do
+    #   assert true
+    # end
+  end
 end
