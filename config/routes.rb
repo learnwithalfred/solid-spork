@@ -1,6 +1,8 @@
-Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+# frozen_string_literal: true
 
-  # Defines the root path route ("/")
-  # root "articles#index"
+Rails.application.routes.draw do
+  namespace :v1, default: { format: 'json' } do
+    get 'greetings' => 'greetings#index'
+  end
+  root 'root#index'
 end
