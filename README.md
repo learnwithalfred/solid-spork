@@ -1,24 +1,56 @@
-# README
+# Transactions Application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> Set up a "Hello world" project as one app with Webpack
 
-Things you may want to cover:
+## Built With
 
-* Ruby version
+* Ruby on Rails
+* Rubocop, Stylint
+* Rspec
 
-* System dependencies
+## Perquisites
 
-* Configuration
+ - Ruby version 2.7 or higher
+ - Rails 7
+ - yarn
+ - Node.js
 
-* Database creation
+## Getting Started 🙌
 
-* Database initialization
+To get a local copy up and running follow these simple example steps.
 
-* How to run the test suite
+- Copy and paste the following commands into your terminal to get everything up and running
+  ```
+  git clone https://github.com/learnwithalfred/solid-spork
+  cd solid-spork
+  bundle install
+  yarn install
+  rails db:create
+  rails db:migrate
+  rails db:seed
+  ./bin/dev
 
-* Services (job queues, cache servers, search engines, etc.)
+👤 **Alfred Boateng**
 
-* Deployment instructions
+- GitHub: [@learnwithalfred](https://github.com/learnwithalfred)
+- Twitter: [@kb_alfred](https://twitter.com/kb_alfred)
+- LinkedIn: [@learnwithalfred](https://www.linkedin.com/in/learnwithalfred/)
 
-* ...
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- A special thanks to Microverse for inspiring this project.
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
